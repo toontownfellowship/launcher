@@ -1,3 +1,4 @@
+@echo looking for game updates
 @cd ..\src
 @..\git\bin\git fetch
 @..\git\bin\git reset --hard --quiet
