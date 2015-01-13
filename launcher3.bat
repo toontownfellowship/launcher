@@ -1,5 +1,5 @@
 @echo off
-cd ..\src
+cd src
 
 rem Get the user input:
 set /P ttiUsername="Username: "
@@ -10,7 +10,7 @@ set TTI_PLAYCOOKIE=%ttiUsername%
 set TTI_GAMESERVER=stormbirds.org
 
 echo ===============================
-echo Starting Toontown Infinite...
+echo Starting Toontown Fellowship...
 echo ppython: %PPYTHON_PATH%
 echo Username: %ttiUsername%
 echo Gameserver: %TTI_GAMESERVER%
