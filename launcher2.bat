@@ -10,4 +10,4 @@
 @..\git\bin\git checkout master --quiet
 @..\git\bin\git pull --quiet
 @cd ..
-@launcher\newlaunch.hta
+@start /b launcher\newlaunch.hta
