@@ -3,11 +3,6 @@ cd src
 
 rem Get the user input:
 set /P ttiUsername="Username: "
-
-echo "If you previously had no password and this is the first time you"
-echo "are seeing this, the password you enter now will be remembered and will"
-echo "be your password from now on.. pick carefully.."
-echo ""
 set /P ttiPassword="Password: "
 
 rem Export the environment variables:
