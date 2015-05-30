@@ -1,13 +1,13 @@
 @echo looking for game updates
 @cd ..\src
-@..\git\bin\git fetch
-@..\git\bin\git reset --hard origin/master --quiet
-@..\git\bin\git checkout master --quiet
-@..\git\bin\git pull --quiet
+@git fetch
+@git reset --hard origin/master --quiet
+@git checkout master --quiet
+@git pull --quiet
 @cd ..\resources
-@..\git\bin\git fetch
-@..\git\bin\git reset --hard  origin/master --quiet
-@..\git\bin\git checkout master --quiet
-@..\git\bin\git pull --quiet
+@git fetch
+@git reset --hard  origin/master --quiet
+@git checkout master --quiet
+@git pull --quiet
 @cd ..
 @launcher\launcher3.bat
